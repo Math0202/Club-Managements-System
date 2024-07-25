@@ -1,0 +1,55 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "**", 
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "method": ["GET"],
+            "maxAgeSeconds": 3600, 
+            "value": "https://firebasestorage.googleapis.com/" ,
+            "Origin":["https://ongolftech.club"]
+          },
+          {
+            "key": "Access-Control-Allow-Methods",
+            "value": "GET, POST, PUT, DELETE, OPTIONS" 
+          },
+          {
+            "key": "Access-Control-Allow-Headers",
+            "value": "Content-Type, Authorization" 
+          }
+        ]
+      }
+    ]
+  },
+  "flutter":{
+    "platforms":{
+      "android":{
+        "default":{
+          "projectId":"ongolftech-78cc7",
+          "appId":"1:116529557634:android:6f8c28f9b627d3f5ba849b",
+          "fileOutput":"android/app/google-services.json"}
+        },
+          "dart":{
+            "lib/firebase_options.dart":{
+            "projectId":"ongolftech-78cc7",
+            "configurations":{
+              "android":"1:116529557634:android:6f8c28f9b627d3f5ba849b",
+              "ios":"1:116529557634:ios:d42ac1e9213a9f0eba849b",
+              "macos":"1:116529557634:ios:d42ac1e9213a9f0eba849b",
+              "web":"1:116529557634:web:1cf5aedbbda4bbc3ba849b",
+              "windows":"1:116529557634:web:08cf34ad3a156e4dba849b"
+              }
+              }
+              }
+              }
+            }
+
+}

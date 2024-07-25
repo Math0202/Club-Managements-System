@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "116529557634",
+    "project_id": "ongolftech-78cc7",
+    "storage_bucket": "ongolftech-78cc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116529557634:android:608b89b70f34b2e3ba849b",
+        "android_client_info": {
+          "package_name": "com.example.ongolf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYS7Kwfib0cvq-eF3JNWTgmJNlBOSiVPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116529557634:android:28eb8c8b9a346229ba849b",
+        "android_client_info": {
+          "package_name": "com.example.ongolf_tech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYS7Kwfib0cvq-eF3JNWTgmJNlBOSiVPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116529557634:android:6f8c28f9b627d3f5ba849b",
+        "android_client_info": {
+          "package_name": "com.example.ongolf_tech_mamagement_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYS7Kwfib0cvq-eF3JNWTgmJNlBOSiVPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
